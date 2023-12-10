@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://example.com/fontawesome/v5.15.4/js/all.js" data-auto-a11y="true" ></script>
+     <title>Document</title>
+</head>
+<body>
+    <input type="checkbox" id="checkbox-cover">
+    <input type="checkbox" id="checkbox-page1">
+    <input type="checkbox" id="checkbox-page2">
+    <input type="checkbox" id="checkbox-page3">
+    <div class="book">
+        <div class="cover">
+            <label for="checkbox-cover"></label>
+        </div>
+        <div class="page" id="page1">
+            <div class="front-page">
+               <h2>Instrements</h2>
+                <div class="instrement">
+                    <img src="images/piano.jpg" alt="piano">
+                    <div class="content">
+                        <H3>PIANO</H3>
+                        <audio controls>
+                            <source src="sounds/piano.mp3" type="audio/mpeg">
+                          Your browser does not support the audio element.
+                          </audio>
+                          <label > <a href="files/piano.rar"  download>download</a> </label>
+                    </div>
+                </div>
+                <div class="instrement">
+                    <img src="images/trumpet.jpg" alt="trumpet">
+                    <div class="content">
+                        <H3>TRUMPET</H3>
+                        <audio controls>
+                            <source src="sounds/trumpet.mp3" type="audio/mpeg">
+                          Your browser does not support the audio element.
+                          </audio>
+                          <label > <a href="files/trumpet.rar"  download>download</a> </label>
+                    </div>
+                </div>
+                <div class="instrement">
+                    <img src="images/animals.jpg" alt="animals">
+                    <div class="content">
+                        <H3>ANIMALS</H3>
+                        <audio controls>
+                            <source src="sounds/animals.mp3" type="audio/mpeg">
+                          Your browser does not support the audio element.
+                          </audio>
+                          <label > <a href="files/animals.rar"  download>download</a> </label>
+                    </div>
+                </div>
+                 <label class="next" for="checkbox-page1">Next &#62;</label>
+            </div>
+            <div class="back-page">
+                <img src="images/Twinkle-Twinkle-Little-Star.jpg">
+                <label class="prev" for="checkbox-page1">&#60; Back</label>
+            </div>
+        </div>
+        <div class="page" id="page2">
+            <div class="front-page">
+                <h2>Twinkle Twinkle Little Star</h2>
+               <br>
+                <img src="images/Twinkle-Twinkle-Little-Star-code.jpg" alt="" class="music">
+                <audio controls>
+                    <source src="sounds/Twinkle-Twinkle-Little-Star.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+                  <label class="download"> <a href="files/twinkle.rar"  download>download</a> </label>
+               
+                <label class="next" for="checkbox-page2">Next &#62; </label>
+            </div>
+            <div class="back-page">
+                <img src="images/Twinkle Twinkle Little Star 2.jpg">
+                <label class="prev" for="checkbox-page2">&#60; Back</label>
+            </div>
+        </div>
+        <div class="page" id="page3">
+            <div class="front-page">
+                <h2>Twinkle Twinkle Little Star</h2>
+               
+                <img src="images/Twinkle-Twinkle-Little-Star-code.jpg" alt="" class="music">
+                <audio controls>
+                    <source src="sounds/Twinkle-Twinkle-Little-Star.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>
+                  <label class="download"> <a href="files/1.rar"  download>download</a> </label>
+               
+                <!-- <label class="next" for="checkbox-page2">Next</label> -->
+            </div>
+           
+        </div>
+        <div class="back-cover"></div>
+    </div>
+</body>
+</html>
